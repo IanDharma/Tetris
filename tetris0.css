@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:120px;
+}
+
+#start-button {
+  background-color: burlywood;
+  color:black;
+  padding:10px;
+  cursor:pointer;
+}
+
+#start-button:hover {
+  background-color: red;
+}
+
+.grid {
+    width:200px;
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:black;
+  }
+
+#background-color {
+  background-color: rgb(46, 45, 45);
+}
+
+  .grid div {
+    height:20px;
+    width:20px;
+  }
+  
+  .tetromino {
+    background-color:white;
+  }
+
+  .container_2 {
+    display: block;
+  }
+
+  .score-box {
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 14px;
+    justify-content: center;
+  }
+
+  #score {
+    color:white;
+    margin-top: 25px;
+  }
+
+  .mini-grid {
+    margin-top: 90px;
+    margin-left: 62px;
+    width: 80px;
+    height: 80px;
+    max-width: 70%;
+    max-height: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+
+  img {
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top:23px;
+  }
